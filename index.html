@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion-Based Design with Emojis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Choose Your Emotion</h1>
+        <p>Select an emotion to see the emoji and its description!</p>
+    </header>
+    <div class="container">
+        <!-- Emotion Buttons -->
+        <button class="emotion-button" onclick="changeEmotion('happy')">Happy</button>
+        <button class="emotion-button" onclick="changeEmotion('sad')">Sad</button>
+        <button class="emotion-button" onclick="changeEmotion('angry')">Angry</button>
+        <button class="emotion-button" onclick="changeEmotion('excited')">Excited</button>
+        <button class="emotion-button" onclick="changeEmotion('surprised')">Surprised</button>
+        <button class="emotion-button" onclick="changeEmotion('bored')">Bored</button>
+        <button class="emotion-button" onclick="changeEmotion('confused')">Confused</button>
+        <button class="emotion-button" onclick="changeEmotion('love')">Love</button>
+        <button class="emotion-button" onclick="changeEmotion('shy')">Shy</button>
+        <button class="emotion-button" onclick="changeEmotion('relaxed')">Relaxed</button>
+        <button class="emotion-button" onclick="changeEmotion('silly')">Silly</button>
+        <button class="emotion-button" onclick="changeEmotion('proud')">Proud</button>
+        <button class="emotion-button" onclick="changeEmotion('embarrassed')">Embarrassed</button>
+        <button class="emotion-button" onclick="changeEmotion('grateful')">Grateful</button>
+        <button class="emotion-button" onclick="changeEmotion('nervous')">Nervous</button>
+        <button class="emotion-button" onclick="changeEmotion('hopeful')">Hopeful</button>
+    </div>
+
+    <div class="emoji-display" id="emojiDisplay">
+        <!-- Selected Emoji will appear here -->
+    </div>
+    <div class="description" id="description">
+        <!-- Description of the emotion will appear here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
